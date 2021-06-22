@@ -13,11 +13,14 @@
   color: black;
 }
 
+body {
+  background-image: url(../image/img1.jpg);
+}
+
 .top {
   width: 100vw;
   height: 100vh;
   top: 0;
-  background-image: url(../image/img1.jpg);
   position: relative;
 }
 
