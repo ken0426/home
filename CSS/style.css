@@ -1,27 +1,35 @@
-.header {
-  height: 10px;
-}
-
 .header .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 20px;
 }
 
-.header .nav-list .item {
-  color: black;
+.header .nav-list .item + .item {
+  padding-left: 20px;
+}
+
+.header .nav-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 body {
   background-image: url(../image/img1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
 }
 
 .top {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
   top: 0;
-  position: relative;
 }
 
 .top .top-title {

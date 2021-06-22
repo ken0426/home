@@ -1,13 +1,21 @@
 .header{
-  height: 10px;
-  
+  // height: 10px;
   .nav-wrap{
   }
   .nav-list{
     display: flex;
     text-align: center;
+    justify-content: flex-end;
+    padding: 20px;
     .item{
-      color: black;
+      + .item{
+        padding-left: 20px;
+      }
+    }
+    a{
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-size: 20px;
     }
   }
 }
