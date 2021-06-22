@@ -1,0 +1,12 @@
+.header{
+  height: 10px;
+  .nav-wrap{
+  }
+  .nav-list{
+    display: flex;
+    text-align: center;
+    .item{
+      color: black;
+    }
+  }
+}
