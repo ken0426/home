@@ -18,5 +18,27 @@ body{
     position: absolute;
     font-size: 90px;
     color: white;
+    font-family: serif;
+    opacity: .8;
+  }
+  
+}
+
+.sub-item{
+  position: absolute;
+  position: relative;
+  top: 0;
+  opacity: 0;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+  height: calc(100vh - 60px);
+
+  .desc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
   }
 }
